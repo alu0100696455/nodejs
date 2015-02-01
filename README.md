@@ -22,7 +22,7 @@ Para empezar a usar *Node.js* escribiremos el siguiente comando en la terminal:
 > nodejs
 
 -
-## Instalación en Windows
+## Windows
 
 ### 1. Instalación
 
