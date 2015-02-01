@@ -7,40 +7,104 @@
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
+    <script src="javascripts/main.js"></script>
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
   </head>
   <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/alu0100696455/nodejs">View On GitHub</a></li>
-          <li class="downloads"><a href="https://github.com/alu0100696455/nodejs/zipball/master">ZIP</a></li>
-          <li class="downloads"><a href="https://github.com/alu0100696455/nodejs/tarball/master">TAR</a></li>
-          <li class="title">DOWNLOADS</li>
-        </nav>
-      </div><!-- end header -->
+
+      <header>
+        <h1>Nodejs</h1>
+        <p></p>
+      </header>
+
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="https://github.com/alu0100696455/nodejs" class="button fork"><strong>View On GitHub</strong></a>
+        <div class="downloads">
+          <span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/alu0100696455/nodejs/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/alu0100696455/nodejs/tarball/master" class="button">TAR</a></li>
+          </ul>
+        </div>
+      </div><!-- end banner -->
 
     <div class="wrapper">
-
+      <nav>
+        <ul></ul>
+      </nav>
       <section>
-        <div id="title">
-          <h1>Nodejs</h1>
-          <p></p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/alu0100696455">alu0100696455</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
-        </div>
+        <h1>
+<a id="tutorial-de-instalación-de-nodejs" class="anchor" href="#tutorial-de-instalaci%C3%B3n-de-nodejs" aria-hidden="true"><span class="octicon octicon-link"></span></a>Tutorial de instalación de Node.js</h1>
 
-        <p>Jonathan Expósito Martín</p>
+<p>Node.js® is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.</p>
+
+<p><img src="./img/nodejs-logo.png" alt=""></p>
+
+<h2>
+<a id="ubuntu" class="anchor" href="#ubuntu" aria-hidden="true"><span class="octicon octicon-link"></span></a>Ubuntu</h2>
+
+<h3>
+<a id="1-instalación" class="anchor" href="#1-instalaci%C3%B3n" aria-hidden="true"><span class="octicon octicon-link"></span></a>1. Instalación</h3>
+
+<p>Para la instalación en <em>Ubuntu</em> introduciremos las siguientes líneas en la terminal:</p>
+
+<blockquote>
+<p>curl -sL <a href="https://deb.nodesource.com/setup">https://deb.nodesource.com/setup</a> | sudo bash -</p>
+
+<p>sudo apt-get install -y nodejs</p>
+</blockquote>
+
+<h3>
+<a id="2-uso" class="anchor" href="#2-uso" aria-hidden="true"><span class="octicon octicon-link"></span></a>2. Uso</h3>
+
+<p>Para empezar a usar <em>Node.js</em> escribiremos el siguiente comando en la terminal:</p>
+
+<blockquote>
+<p>nodejs</p>
+</blockquote>
+
+<h2></h2>
+
+<h2>
+<a id="instalación-en-windows" class="anchor" href="#instalaci%C3%B3n-en-windows" aria-hidden="true"><span class="octicon octicon-link"></span></a>Instalación en Windows</h2>
+
+<h3>
+<a id="1-instalación-1" class="anchor" href="#1-instalaci%C3%B3n-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>1. Instalación</h3>
+
+<p>Para la instalación en <em>Windows</em> nos descargaremos el instalador directamente de la página <a href="http://nodejs.org">nodejs.org</a>.</p>
+
+<h3>
+<a id="2-uso-1" class="anchor" href="#2-uso-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>2. Uso</h3>
+
+<p>Para empezar a usar <em>Node.js</em> abriremos la aplicación instalada con el mismo nombre, abriéndose así la consola.</p>
+
+<h2></h2>
+
+<h2>
+<a id="primeros-pasos" class="anchor" href="#primeros-pasos" aria-hidden="true"><span class="octicon octicon-link"></span></a>Primeros pasos</h2>
+
+<p>Para probar que todo ha ido bien probaremos lo siguiente:</p>
+
+<blockquote>
+<p>console.log("Hola Mundo");</p>
+
+<p>console.log(2+3);</p>
+</blockquote>
+
+<p>La salida de estas líneas debería coincidir con la imagen adjunta.</p>
+
+<p><img src="./img/primerospasos.png" alt=""></p>
       </section>
-
+      <footer>
+        <p>Project maintained by <a href="https://github.com/alu0100696455">alu0100696455</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
+      </footer>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     
