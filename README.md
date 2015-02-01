@@ -9,7 +9,7 @@ Node.js® is a platform built on Chrome's JavaScript runtime for easily building
 
 ### 1. Instalación
 
-Para la instalación en Ubuntu introduciremos las siguientes líneas en la terminal
+Para la instalación en *Ubuntu* introduciremos las siguientes líneas en la terminal
 
 > curl -sL https://deb.nodesource.com/setup | sudo bash -
 >
@@ -17,18 +17,18 @@ Para la instalación en Ubuntu introduciremos las siguientes líneas en la termi
 
 ### 2. Uso
 
-Para empezar a usar Node.js escribiremos el siguiente comando en la terminal:
+Para empezar a usar *Node.js* escribiremos el siguiente comando en la terminal:
 
 > nodejs
 
-
-
+-
+-
 ## Instalación en Windows
 
 ### 1. Instalación
 
-Para la instalación en Windows nos descargaremos el instalador directamente de la página [nodejs.org](http://nodejs.org)
+Para la instalación en *Windows* nos descargaremos el instalador directamente de la página [nodejs.org](http://nodejs.org)
 
 ### 2. Uso
 
-Para empezar a usar Node.js abriremos la aplicación instalada con el mismo nombre, abriéndose así la consola.
+Para empezar a usar *Node.js* abriremos la aplicación instalada con el mismo nombre, abriéndose así la consola.
