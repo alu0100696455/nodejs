@@ -17,4 +17,4 @@ Para la instalación en Ubuntu introduciremos las siguientes líneas en la termi
 
 ## Instalación en Windows
 
-Para la instalación en Windows nos descargaremos el instalador directamente de la página nodejs.org
+Para la instalación en Windows nos descargaremos el instalador directamente de la página [nodejs.org](nodejs.org)
