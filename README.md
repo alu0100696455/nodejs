@@ -41,7 +41,7 @@ Para probar que todo ha ido bien probaremos lo siguiente:
 >
 > console.log(2+3);
 
-La salida de estas líneas deberían coincidir con la imagen adjunta.
+La salida de estas líneas debería coincidir con la imagen adjunta.
 
 ![](./img/primerospasos.png)
 
